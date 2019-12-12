@@ -1,0 +1,76 @@
+p {
+    float: left;
+    font-size: large;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+.top-header {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    margin:0%;
+    border-bottom:1px solid rgba(37, 37, 37, 0.096);
+}
+.top-header a {
+    color: forestgreen;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Cambria';
+    font-size: 180%;
+    text-decoration: solid;
+}
+.top-header a:hover {
+    color: rgb(23, 31, 17);
+    
+}
+.navbar {
+    background-color: rgb(165, 206, 20);
+    overflow: hidden;
+    padding: 10px 15px 9px;
+    box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.877);
+    border-bottom: 2px solid rgba(6, 24, 1, 0.26);
+}
+.navbar a {
+    text-align: center;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 14px 16px;
+}
+.navbar a:hover {
+    background-color: black;
+    color: #f2f2f2;
+}
+.navbar a.stay {
+    background-color: darkgreen;
+    color: #f2f2f2;
+}
+.navbar a.logout {
+    float: right;
+    font-size: 23px;
+    padding: 10px 15px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    color: white;
+    padding: 14px 16px;
+    width: 75%;
+    height: max-content;
+    margin: 0;
+    display: flex;
+    left: 50%;
+    margin-top: 55px;
+    position: absolute;
+    top: 36%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    color: black;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+body {
+    background-color: #333;
+}
